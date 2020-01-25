@@ -1,0 +1,10 @@
+p{
+
+}
+
+p:before{
+	content: "-";
+	top: 50px;
+	position: relative;
+}
+

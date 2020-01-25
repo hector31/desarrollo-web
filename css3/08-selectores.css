@@ -1,0 +1,39 @@
+header h2,h3{
+    color: red;
+}
+p#azul{
+    color: green;
+}
+.prueba{
+    color:orange;
+}
+.grande{
+    font-size: 20px;
+}
+p+p{
+    font-weight: bolder;
+}
+h2[title]{
+    color:#09B5E6;
+}
+h2[lang|="es"]{
+    color:#F56C22;
+}
+h2[title="hola"]{
+    color:#31AA21;
+}
+
+/*
+    colision de estilos
+
+
+    1- css del navegador
+    2- css del usuario
+    3- archivos css enlazados en el orden añadidos
+    4- propiedades que se heredan
+    5- propiedades propias del elemento
+    6- clases asignadas, y en el mismo orden
+    7- identificador
+    8- !important
+
+*/
